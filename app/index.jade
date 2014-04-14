@@ -3,9 +3,32 @@ html(lang='en')
   head
     meta(charset='utf-8')
     title Client Template
-    link(rel='stylesheet', href='./css/app.css')
+    link(rel='stylesheet', href='css/app.css')
   body
-    h1 Client Template
+    #container
+      h1 SuperBank
 
-    script(src='./js/vendor/jquery-2.1.0.js')
-    script(src='./js/source/main.js')
+      #balance
+
+      input(type="text")#amount
+
+      button#deposit
+      button#widthdraw
+
+      table#ledger
+        thead
+          tr
+            th Fee
+            th Deposit
+            th Withdrawal
+            th Balance
+
+        tbody
+          tr
+            td
+            td
+            td
+            td $1000.00
+
+    script(src='js/vendor/jquery-2.1.0.js')
+    script(src='js/source/main.js')
