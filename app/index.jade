@@ -2,18 +2,21 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    title Client Template
+    title SuperBank
     link(rel='stylesheet', href='css/app.css')
   body
+    h1 SuperBank
     #container
-      h1 SuperBank
 
-      #balance
+      h2 Balance
+      #balance $1000.00
 
-      input(type="text")#amount
+      input(type="text" placeholder="Enter amount to transfer." autofocus="true")#amount
 
-      button#deposit
-      button#widthdraw
+      button#deposit DEPOSIT
+      button#withdraw WITHDRAW
+
+      #clear
 
       table#ledger
         thead
