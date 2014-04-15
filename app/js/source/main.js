@@ -44,7 +44,9 @@
       }
 
     } else {
+
       $td2.text('$' + Number(amount).toFixed(2));
+      
     }
 
     $tr.append($td1, $td2, $td3, $td4);
